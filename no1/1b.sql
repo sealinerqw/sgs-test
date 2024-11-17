@@ -14,6 +14,5 @@ SELECT
         '  }',
         ',' + CHAR(13) + CHAR(10)
     ) +
-    ']' 
-AS result
+    CHAR(10)+']'
 FROM FieldContainer;
